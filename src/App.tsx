@@ -13,7 +13,6 @@ import {
 import { useQuery } from "@tanstack/react-query";
 import { useEffect, useState } from "react";
 import { search } from "./api/api";
-import { Link } from "react-router-dom";
 
 const useDebounce = (value: string, delay: number = 500) => {
   const [debouncedValue, setDebouncedValue] = useState(value);
